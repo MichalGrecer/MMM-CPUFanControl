@@ -41,18 +41,20 @@ To safely control a fan (which typically draws more current than a GPIO pin can 
 
 ## Configuration
 
-Add the following to the modules array in your config.js file:
-    ```javascript
-    {
+Add the module to the `modules` array in your `config/config.js` file:
+
+```javascript
+{
     module: "MMM-CpuFanControl",
     config: {
-        temp_high: 65,          // Fan turns ON at this temp (°C)
-        temp_low: 55,           // Fan turns OFF at this temp (°C)
-        check_interval: 30000,  // Check interval in milliseconds (default 30s)
-        gpio_pin: 24            // GPIO pin number (BCM numbering)
-            }
-    },
-    ```
+        temp_high: 65,
+        temp_low: 55,
+        check_interval: 30000,
+        gpio_pin: 24
+    }
+},
+```
+
 ## Configuration Options
 
 | Option | Description | Default |
