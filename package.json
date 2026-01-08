@@ -1,0 +1,15 @@
+{
+  "name": "MMM-CpuFanControl",
+  "version": "1.0.0",
+  "description": "MagicMirror module to control a CPU fan via GPIO based on temperature (optimized for Raspberry Pi 5).",
+  "main": "MMM-CpuFanControl.js",
+  "author": "Michał Grecer",
+  "license": "MIT",
+  "keywords": [
+    "magicmirror",
+    "module",
+    "raspberry pi",
+    "fan control",
+    "gpio"
+  ]
+}
