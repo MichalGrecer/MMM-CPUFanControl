@@ -10,7 +10,7 @@ The module monitors the CPU temperature at regular intervals. When the temperatu
 
 To safely control a fan (which typically draws more current than a GPIO pin can provide), you must use a transistor (like the 2N2222A) as a switch.
 
-![Schematic](images/schematic.png)
+![Schematic](images/MMM-CPUFanControl.png)
 
 **Components used in the diagram:**
 * **Q1:** 2N2222A NPN Transistor.
