@@ -42,7 +42,7 @@ To safely control a fan (which typically draws more current than a GPIO pin can 
 ## Configuration
 
 Add the following to the modules array in your config.js file:
-    ```bash
+    ```javascript
     {
     module: "MMM-CpuFanControl",
     config: {
