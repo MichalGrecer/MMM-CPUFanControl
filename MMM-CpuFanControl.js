@@ -12,14 +12,11 @@ Module.register("MMM-CpuFanControl", {
         gpio_pin: 16            // Pin GPIO, który kontroluje tranzystor
     },
 
-    // Rozpocznij moduł
     start: function() {
         Log.info("Uruchamianie modułu: " + this.name);
-        // Wyślij konfigurację do node_helper.js, aby rozpoczął pętlę
         this.sendSocketNotification("START_FAN_CONTROL", this.config);
     },
 
-    // Ten moduł nie wyświetla nic na ekranie
     getDom: function() {
         var wrapper = document.createElement("div");
         return wrapper;
